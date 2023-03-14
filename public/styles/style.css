@@ -65,11 +65,16 @@
 .img-container{
     width: 200px;
     height: 200px;
-    background-color: powderblue;
+    /* background-color: powderblue; */
     border-radius: 50%;
     margin: 0px auto;
     margin-top: -100px;
+    overflow: hidden;
+    border: 3px solid var(--bg-primary)
     
+}
+.img-container img{
+    width: 100%;
 }
 /* Fin de los estilos de la imagen  */
 /* Estilos de los datos sobre mi  */
