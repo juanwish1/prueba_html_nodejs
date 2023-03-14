@@ -1,0 +1,187 @@
+:root{
+--bg-primary: #148e77;
+--bg-secondary: #202020;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: #e6e6e6;
+}
+.section-container{
+    width: 100%;
+}
+/* Estilos de la barra de menu */
+.bars-container{
+    width: 95%;
+    height: 70px;
+    background-color: var(--bg-primary);
+    right: 0;   
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 30px;
+    z-index: 10;
+    position: absolute;
+}
+.bars-container nav{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bars-container nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.bars-container nav a:hover{
+    color:gold;
+}
+/* Fin de los estilos de la barra de menu */
+/* Estilos del slider */
+.info-container{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 135, 224);
+}
+.info{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.info h1{
+    font-size: 40px;
+}
+.info h2{
+    font-size: 20px;
+}
+
+/* Estilos de la imagen que aparece en medio*/
+.img-container{
+    width: 200px;
+    height: 200px;
+    background-color: powderblue;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-top: -100px;
+    
+}
+/* Fin de los estilos de la imagen  */
+/* Estilos de los datos sobre mi  */
+.sobre-mi-sect{
+    width: 100%;
+    margin-top: 30px;
+   
+}
+.sobre-mi-container{
+    width: 100%;
+    text-align: center;
+}
+.sobre-mi-container .text-1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sobre-mi-container .text-2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sobre-mi-container .info-sobre-mi{
+    margin: 0px auto;
+    width: 600px;
+}
+.info-sobre-mi .text-3{
+    color: var(--bg-primary);
+}
+
+/* FIn de los estilos sobre mi*/
+
+/* Estilos  de las columnas*/
+.column-container{
+    margin:0px auto;
+    display: flex;
+    flex: wrap;
+    width: 90%;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.column-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.column-container .column-item{
+    width: 300px;
+    text-align: center;
+}
+
+/* Fin de los estilos de las columnas */
+/* Estilos de la seccion de habiliades */
+.sect-habilidades{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.habilidades-container{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+/* Fin de los estilso de las habilidades */
+
+/* Estilos del resumen */
+.sect-resumen{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Fin estilos del resumen */
+/* Estilos del contacto */
+.sect-contact{
+    width: 100%;
+    height: 200px;
+    background-color: var(--bg-secondary);
+    color: white;
+}
+.sect-contact-h{
+    font-size: 25px;
+    text-align: center;
+    /* height: 100px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sect-contact-f{
+    height: 100px;
+}
+.sect-contact-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.sect-contact-item p{
+    color: var(--bg-primary);
+    font-weight: bold;
+    font-size: 25px;
+}
+/* Fin de los estilos del contacto */
+/* Fin de los estilos */
+
